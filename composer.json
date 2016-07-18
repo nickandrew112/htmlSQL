@@ -1,0 +1,14 @@
+{
+  "name": "hxseven/htmlSQL",
+  "type": "library",
+  "description": "Symfony Console Component",
+  "keywords": [],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": { "HTML\\SQL": "" },
+    "exclude-from-classmap": []
+  },
+  "minimum-stability": "dev"
+}
