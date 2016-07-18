@@ -7,7 +7,12 @@
     "php": ">=5.5.9"
   },
   "autoload": {
-    "psr-4": { "HTMLSQL\\": "" }
+    "psr-0": { "HTMLSQL\\": "" },
+
+    "classmap": [
+      "htmlsql.class.php",
+      "snoopy.class.php"
+    ]
   },
   "minimum-stability": "dev"
 }
